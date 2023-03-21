@@ -1,0 +1,26 @@
+footer{
+    padding: 1.5rem 0;
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    margin: 0;
+    background-color: white;
+    max-width: 80rem;
+    right: 0;
+}
+
+.cont-buttons{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:800px) {
+    footer{
+        max-width: 100%;
+    }
+
+    .cont-buttons{
+        width: 40%;
+    }
+}
