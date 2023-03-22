@@ -20,7 +20,7 @@ const Ability = [
 ]
 
 export default function BoxIdiom ({idiom, disabled, index, lengthIdiom, handleAdd, idiomsFetch, handleDelete }) {
-  console.log(index+1,lengthIdiom)
+  
   const [idioms, setIdioms] = useState({idiom:idiom.idiom, level:idiom.level})
 
   const handleLevel = (event) =>{

@@ -37,7 +37,7 @@ export default function Areas () {
   }
 
 const handleToggle = (valueId, item) => () => {
-  console.log(valueId)
+  
   const currentIndex = checked.indexOf(valueId);
   const newChecked = [...checked];
   if (currentIndex === -1) {

@@ -55,7 +55,9 @@ export default function Skills () {
   const handleChip = (event)=>{
     const limitTags = 3;
     if (data.skills.length < limitTags){
-      data.skills.push(event.target.value)
+      const newSkill = [...data.skills]
+      newSkill.push(event.target.value);
+      setData({...data, skills:newSkill})
     } else {
       setErrorDisable(true)
     }
