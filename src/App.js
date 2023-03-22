@@ -31,6 +31,7 @@ function App() {
                 <Route path='completed' Component={Completed}/>
               
             </Routes>
+          {/* <RouterProvider router={router}/> */}
         </div>
       </DataContext.Provider>
     </Router>
